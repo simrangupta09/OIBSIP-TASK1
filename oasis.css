@@ -1,0 +1,259 @@
+*{
+    margin:0px;
+    font-family: arial;
+    border:border-box;
+}
+
+.navbar {
+background-color:rgb(121, 121, 153);
+height: 60px;
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+
+
+}
+.logo1{
+font-size:30px;
+width:800px;
+color: white;
+
+}
+.list a{
+    margin-left:8px;
+    font-weight: 500;
+    color: white;  
+    font-size: 18px; 
+    display: inline-block; 
+}
+.img{
+    background-image: url("img1.jpg");
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+.imgtext{
+    color:rgba(19, 16, 16, 0.548);
+    margin-left:30px;
+    margin-left:70px;
+    font-size:20px;
+   
+}
+.imgtext p{
+    margin-top:10px;
+    margin-left:20px;
+    font-size:20px;
+    
+}
+button{
+    border-radius:50px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 18px;
+    height:40px;
+    width:200px;
+    border:1px solid black;
+}
+.border:hover{
+    background-color:rgb(121, 121, 153);   
+    transform:scale(1.1);    
+    font-size: 20px;
+}
+.border a:hover{
+    font-size: 50px;
+}
+.about{
+    align-items: center;
+    height:30px;
+    color:rgb(115, 115, 151); 
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+.about1{
+    text-align: center;
+    background-color:white;
+    text-align: center;
+    color:rgb(115, 115, 151); 
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+.imgabout{
+    height:300px;
+    width:300px;
+    background-image: url("about.jpg");
+    background-size: cover;
+   
+   
+}
+.abouttext{
+    height:200px;
+    width:600px;
+    text-align: center;
+    background-color:white;
+    padding-top:20px;
+
+}
+.abouttext p{
+    padding-top:10px;
+    font-size: 20px;
+    line-height:25px;
+}
+/**section**/
+.section{
+    height:150px;
+   background-color:rgb(115, 115, 151); 
+   text-align: center;
+   display:flex;
+   justify-content:space-evenly;
+   align-items: center;
+}
+.section i{
+    color:white;
+    font-size:30px;
+}
+.section h4{
+    margin-top:10px;
+}
+.section p{
+    margin-top: 10px;
+    font-size: 15px;   
+}
+.class{
+    height:30px;
+    color:rgb(115, 115, 151); 
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.class1{
+    height:300px;
+    background-color:white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.boxes{
+    height:330px;
+   
+}
+.medi1{
+    height:250px;
+    width:350px;
+    background-size: cover;
+}
+.boxes h2{
+text-align: center;
+padding-top: 10px;
+color:rgb(115, 115, 151); 
+}
+/**services**/
+.services{
+height:30px;
+text-align: center;
+color:rgb(115, 115, 151); 
+padding-top: 40px;
+margin-bottom: 40px;
+}
+.service{
+    height:300px;
+    display:flex;
+justify-content: space-evenly;
+}
+.box1{
+    height:280px;
+    width: 280px;
+    background-color:rgb(252, 252, 253);
+    border:1px solid black;
+    text-align: center;
+}
+.box1 i{
+    font-size:30px;
+    padding-top: 20px;
+    
+}
+.box1 h3{
+    padding-top:15px ;
+}
+.box1 p{
+    padding-top:10px;
+    line-height: 20px;
+}
+.borders:hover{
+    background-color:rgb(115, 115, 151);
+    color:white;
+    font-size: 18px;
+    transform: scale(1.1);
+}
+   
+.button{
+    font-size:15px;
+    border-radius: 0%;
+}
+/**footer**/
+.footer{
+    height:200px;
+    background-color: rgb(115, 115, 151);
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot{
+    height:100px;
+    width:200px;
+    text-align:left;
+    padding-top:40px;
+    color:white;
+    margin-right:100px;
+}
+.foot h3 {
+    margin-bottom: 20px;
+}
+.foot p{
+    line-height: 20px;
+}
+.foottext{
+    
+    height: 200px;
+    width:600px;
+    display: flex;
+  align-items: center;
+  color: white;
+  
+    
+}
+ul a{
+    display: block;
+    margin:10px;
+}
+ul h2{
+    padding-bottom:30px;
+}
+.footerend{
+    height:150px;
+    background-color: rgb(115, 115, 151);
+    margin-top:2px;
+}
+.icon{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 25px;
+}
+.icon1{
+    margin-left:20px;
+    padding-top: 40px;
+    color:white;
+}
+.last{
+    color:white;
+    text-align: center;
+    padding-top: 15px;
+}
